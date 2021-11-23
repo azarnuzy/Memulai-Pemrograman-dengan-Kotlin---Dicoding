@@ -7,4 +7,11 @@ fun main() {
 
     println(name)
     println(age)
+
+    val (name1, age1) = dataUser
+
+    println(name1)
+    println(age1)
+
+    dataUser.intro()
 }
